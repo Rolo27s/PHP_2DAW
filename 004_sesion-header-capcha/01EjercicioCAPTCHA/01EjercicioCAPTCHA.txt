@@ -1,0 +1,15 @@
+Ejercicio 1: Sistema de autenticación con CAPTCHA
+
+Desarrolla un sistema de autenticación simple que utilice CAPTCHA para evitar ataques de bots. 
+
+El sistema debe constar de dos páginas: 
+    - Formulario de inicio de sesión 
+    - Validación de la entrada. 
+
+    El formulario de inicio de sesión debe incluir 
+        - Usuario
+        - Contraseña
+        - CAPTCHA dinámico generado en tiempo real. 
+        - Input para ingresar el captcha
+
+    El CAPTCHA debe ser una imagen con un texto aleatorio que el usuario debe ingresar correctamente para proceder con el inicio de sesión.

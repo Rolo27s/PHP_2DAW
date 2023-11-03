@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CAPTCHA</title>
+    </head>
+    <body>
+        <form action="pagina2.php" method="post">
+            Ingrese nombre de usuario:
+            <input type="text" name="campousuario" value="Fran" /><br />
+            Ingrese clave:
+            <input type="password" name="campoclave" value="1234" /><br />
+            <!-- CAPTCHA -->
+            <img src="./captcha.php" alt="Captcha Image" />
+            Ingrese CAPTCHA:
+            <input type="text" name="captcha-user" /><br />
+            <input type="submit" value="confirmar" />
+        </form>
+    </body>
+</html>

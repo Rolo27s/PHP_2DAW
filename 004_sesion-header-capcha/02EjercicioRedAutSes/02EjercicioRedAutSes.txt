@@ -1,0 +1,12 @@
+Ejercicio 2
+Crea un sistema de redirección que redirija a los usuarios a diferentes páginas según su estado de autenticación. 
+Debes implementar dos páginas: 
+    - formulario de inicio de sesión
+    - página principal.
+
+    La página de inicio de sesión debe verificar las credenciales ingresadas por el usuario y, si son válidas, debe iniciar una sesión y redirigir al usuario a la página principal. 
+    Si las credenciales son inválidas, el usuario debe ser redirigido de nuevo al formulario de inicio de sesión con un mensaje de error adecuado. 
+    
+    La página principal debe verificar si el usuario ha iniciado sesión; de lo contrario, debe redirigir al usuario de vuelta al formulario de inicio de sesión.
+    
+Recuerda incluir en ambos ejercicios el uso de la función header() para la redirección y la manipulación de variables de sesión para mantener el estado del usuario. Además, asegúrate de generar imágenes dinámicas tipo CAPTCHA en los ejercicios que lo requieran.

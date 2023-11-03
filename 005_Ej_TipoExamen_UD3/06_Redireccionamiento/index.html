@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Redireccionamiento</title>
+    </head>
+    <body>
+        <form action="./script.php" method="get">
+            <fieldset>
+                <legend>FORM</legend>
+                <label for="nombre_01">Nombre:</label>
+                <input type="text" list="nombres" name="nombre" id="nombre_01" />
+                <datalist id="nombres">
+                    <option value="Fran"></option>
+                    <option value="Marco"></option>
+                    <option value="Natalia"></option>
+                    <option value="Patricia"></option>
+                </datalist>
+                <input type="submit" value="Send" id="send" />
+            </fieldset>
+        </form>
+    </body>
+</html>
