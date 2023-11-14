@@ -18,9 +18,9 @@ $count = 0;
 foreach ($infoUser as $info) {
     $totAge += $info[1];
     $count++;
-    echo ("Nombre: {$info[0]}</br>");
-    echo ("Edad: {$info[1]}</br>");
-    echo ("Correo: {$info[2]}</br></br>");
+    echo ("Nombre: {$info[0]}<br />");
+    echo ("Edad: {$info[1]}<br />");
+    echo ("Correo: {$info[2]}<br /><br />");
 
     // Agrego una nueva cookie por cada usuario por los próximos 10 minutos
     setcookie("Nombre-de-usuario-{$count}", $info[0], time() + 600, '/');
