@@ -1,3 +1,4 @@
+/* Falta el HTML */
 <?php
 /* Ejercicio 2: Gestión de Productos
 En un sistema de gestión de productos, se te pide escribir un script en PHP que realice las siguientes tareas:
@@ -15,13 +16,13 @@ $productos = [
 $total = 0;
 foreach ($productos as $item) {
     $subtotal = 0;
-    echo "Producto: {$item[0]} </br>";
-    echo "Precio: {$item[1]} </br>";
-    echo "Cantidad: {$item[2]} </br>";
+    echo "Producto: {$item[0]} <br />";
+    echo "Precio: {$item[1]} <br />";
+    echo "Cantidad: {$item[2]} <br />";
 
     $subtotal = $item[1] * $item[2];
 
-    echo "Precio del subtotal de {$item[0]}: {$subtotal} </br></br>";
+    echo "Precio del subtotal de {$item[0]}: {$subtotal} <br /><br />";
 
     $total += $subtotal;
 }
