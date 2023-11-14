@@ -1,3 +1,4 @@
+/* Falta el HTML */
 <?php
 /* Ejercicio 4: Manipulación de Archivos
 En un sistema de manipulación de archivos, se te pide escribir un script en PHP que realice las siguientes tareas:
@@ -12,14 +13,14 @@ $file = fopen("Alcaraz.txt", "w");
 if ($file) {
     fwrite($file, $info);
     fclose($file);
-    echo "Archivo 'Alcaraz.txt' creado con éxito </br></br>";
+    echo "Archivo 'Alcaraz.txt' creado con éxito <br /><br />";
 } else {
     echo "No se pudo abrir el archivo para escritura";
 }
 
 // Leo archivo
 if (file_exists("Alcaraz.txt")) {
-    echo "Contenido del archivo: </br>";
+    echo "Contenido del archivo: <br />";
     $contenido = file_get_contents("Alcaraz.txt");
     print_r($contenido);
 } else {
