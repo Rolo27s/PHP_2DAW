@@ -1,3 +1,4 @@
+/* Faltaría la etiqueta HTML */
 <?php
 /* Ejercicio 1: Manipulación de Datos de Usuarios con Cookies
 En un sistema de gestión de usuarios, se te pide escribir un script en PHP que realice las siguientes tareas:­
