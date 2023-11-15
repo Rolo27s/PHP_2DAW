@@ -1,0 +1,26 @@
+Examen Práctico de PHP - Nivel Fácil a Intermedio
+Objetivo: Desarrollar una aplicación en PHP que utilice sesiones, cookies, formularios, manejo de cabeceras y ficheros.
+
+Registro de Usuario:
+
+Crea una página de registro (registro.php) con un formulario que solicite al usuario un nombre de usuario, una dirección de correo electrónico y una contraseña.
+Valida que todos los campos del formulario estén completos antes de procesar la información.
+Almacena la información del usuario en un archivo de texto (por ejemplo, usuarios.txt). Guarda cada usuario en una nueva línea del archivo.
+Inicio de Sesión:
+
+Crea una página de inicio de sesión (login.php) con un formulario que solicite al usuario su nombre de usuario y contraseña.
+Verifica las credenciales ingresadas por el usuario con la información almacenada en el archivo de usuarios.
+Si las credenciales son correctas, inicia una sesión y redirige al usuario a una página de bienvenida (bienvenida.php).
+Página de Bienvenida:
+
+En la página de bienvenida, muestra un saludo personalizado utilizando el nombre de usuario almacenado en la sesión.
+Incluye un enlace o botón para cerrar sesión.
+Cerrar Sesión:
+
+Implementa un mecanismo para cerrar la sesión cuando el usuario hace clic en el enlace o botón de cerrar sesión.
+Asegúrate de que, al cerrar la sesión, el usuario sea redirigido a la página de inicio de sesión (login.php).
+Seguridad:
+
+Añade medidas básicas de seguridad, como la validación de datos de entrada y la protección contra posibles ataques, como la inyección de SQL.
+Utiliza funciones como htmlspecialchars() para prevenir la inyección de código HTML.
+Recuerda proporcionar comentarios en tu código para explicar las decisiones que has tomado y cualquier consideración de seguridad implementada. ¡Buena suerte!

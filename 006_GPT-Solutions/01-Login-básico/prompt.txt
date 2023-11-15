@@ -1,0 +1,2 @@
+Examen Práctico de PHP - Nivel Fácil a Intermedio
+Objetivo: Desarrollar una pequeña aplicación en PHP que utilice sesiones, cookies, formularios, manejo de cabeceras y ficheros.
